@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tamil:</strong>
+  <%= @mark.tamil %>
+</p>
+
+<p>
+  <strong>English:</strong>
+  <%= @mark.english %>
+</p>
+
+<p>
+  <strong>Maths:</strong>
+  <%= @mark.maths %>
+</p>
+
+<%= link_to 'Edit', edit_mark_path(@mark) %> |
+<%= link_to 'Back', marks_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tamil: 1
+  english: 1
+  maths: 1
+
+two:
+  tamil: 1
+  english: 1
+  maths: 1

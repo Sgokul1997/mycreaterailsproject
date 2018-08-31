@@ -1,0 +1,2 @@
+class Forget < ApplicationRecord
+end
