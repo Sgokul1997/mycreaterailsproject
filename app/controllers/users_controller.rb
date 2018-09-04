@@ -39,7 +39,7 @@ class UsersController < ApplicationController
   end
 
 def demo
-  @user = User.find(params[:id])
+  @user = Register.find(params[:id])
  
     @user.update(user_name: params[:user][:user_name],email: params[:user][:email],password: params[:user][:password],phone_number:params[:user][:phone_number],address:params[:user][:address],city:params[:user][:city],state:params[:user][:state],contry:params[:user][:contry],pincode:params[:user][:pincode])
 
@@ -47,7 +47,7 @@ def demo
 end
 
 def destory
-  @user = User.find(params[:id])
+  @user = Register.find(params[:id])
   if @user.delete
     render json: true
   else
